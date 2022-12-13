@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F9C138F2947FD2B008440EE /* NavigationSplitViewTwoAndThreeColumnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C138E2947FD2B008440EE /* NavigationSplitViewTwoAndThreeColumnApp.swift */; };
-		2F9C13912947FD2B008440EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C13902947FD2B008440EE /* ContentView.swift */; };
+		2F9C138F2947FD2B008440EE /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C138E2947FD2B008440EE /* AppMain.swift */; };
 		2F9C13932947FD2B008440EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C13922947FD2B008440EE /* Assets.xcassets */; };
 		2F9C13962947FD2B008440EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C13952947FD2B008440EE /* Preview Assets.xcassets */; };
+		2F9C139F2947FD6F008440EE /* OptimalTwoAndThreeColumnLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C139C2947FD6F008440EE /* OptimalTwoAndThreeColumnLayout.swift */; };
+		2F9C13A02947FD6F008440EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C139D2947FD6F008440EE /* ContentView.swift */; };
+		2F9C13A12947FD6F008440EE /* TwoAndThreeColumnLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C139E2947FD6F008440EE /* TwoAndThreeColumnLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F9C138B2947FD2B008440EE /* NavigationSplitViewTwoAndThreeColumn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationSplitViewTwoAndThreeColumn.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F9C138E2947FD2B008440EE /* NavigationSplitViewTwoAndThreeColumnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewTwoAndThreeColumnApp.swift; sourceTree = "<group>"; };
-		2F9C13902947FD2B008440EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F9C138E2947FD2B008440EE /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		2F9C13922947FD2B008440EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F9C13952947FD2B008440EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F9C139C2947FD6F008440EE /* OptimalTwoAndThreeColumnLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimalTwoAndThreeColumnLayout.swift; sourceTree = "<group>"; };
+		2F9C139D2947FD6F008440EE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F9C139E2947FD6F008440EE /* TwoAndThreeColumnLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoAndThreeColumnLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		2F9C138D2947FD2B008440EE /* NavigationSplitViewTwoAndThreeColumn */ = {
 			isa = PBXGroup;
 			children = (
-				2F9C138E2947FD2B008440EE /* NavigationSplitViewTwoAndThreeColumnApp.swift */,
-				2F9C13902947FD2B008440EE /* ContentView.swift */,
+				2F9C138E2947FD2B008440EE /* AppMain.swift */,
+				2F9C139D2947FD6F008440EE /* ContentView.swift */,
+				2F9C139C2947FD6F008440EE /* OptimalTwoAndThreeColumnLayout.swift */,
+				2F9C139E2947FD6F008440EE /* TwoAndThreeColumnLayout.swift */,
 				2F9C13922947FD2B008440EE /* Assets.xcassets */,
 				2F9C13942947FD2B008440EE /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F9C13912947FD2B008440EE /* ContentView.swift in Sources */,
-				2F9C138F2947FD2B008440EE /* NavigationSplitViewTwoAndThreeColumnApp.swift in Sources */,
+				2F9C139F2947FD6F008440EE /* OptimalTwoAndThreeColumnLayout.swift in Sources */,
+				2F9C13A12947FD6F008440EE /* TwoAndThreeColumnLayout.swift in Sources */,
+				2F9C138F2947FD2B008440EE /* AppMain.swift in Sources */,
+				2F9C13A02947FD6F008440EE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

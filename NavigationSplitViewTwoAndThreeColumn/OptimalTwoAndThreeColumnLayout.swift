@@ -1,6 +1,6 @@
 //
 //  OptimalTwoAndThreeColumnLayout.swift
-//  MY-NavigationViewWithIpad
+//  NavigationSplitViewTwoAndThreeColumn
 //
 //  Created by Zaid Neurothrone on 2022-12-12.
 //
